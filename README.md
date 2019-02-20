@@ -40,7 +40,7 @@ None.
 ## Installation
 
 ```
-git clone
+git clone git@github.com:while-true-do/doc-library.git
 ```
 
 ## Usage
