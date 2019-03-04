@@ -27,8 +27,9 @@ Please read the below text carefully before contributing.
 In the past, we never faced a situation where a guideline was needed. Everybody
 should be aware of good behavior and should know, how to talk to people.
 
-Nevertheless, we are having a document derived from <https://www.contributor-covenant.org>. Maybe you want to consider reading the whole
-[Code of Conduct](./CODE_OF_CONDUCT.md).
+Nevertheless, we are having a document derived from
+<https://www.contributor-covenant.org>. Maybe you want to consider reading the
+whole [Code of Conduct](./CODE_OF_CONDUCT.md).
 
 ## Project Contribution
 

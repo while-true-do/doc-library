@@ -20,6 +20,7 @@ Documents should not be included in your repository but linked. They will only
 see updates in the doc-library.
 
 -   [Code of Conduct](./documents/CODE_OF_CONDUCT.md)
+-   [Style Guide](./documents/STYLE_GUIDE.md)
 -   [Contribution Guideline](./documents/CONTRIBUTING.md)
 -   [Versioning](./documents/VERSIONING.md)
 
@@ -71,8 +72,11 @@ This work is licensed under a [BSD-3-Clause License](https://opensource.org/lice
 ## Contact
 
 -   Site <https://while-true-do.io>
+-   Twitter <https://twitter.com/wtd_news>
 -   Code <https://github.com/while-true-do>
 -   Mail [hello@while-true-do.io](mailto:hello@while-true-do.io)
 -   IRC [freenode, #while-true-do](https://webchat.freenode.net/?channels=while-true-do)
+-   Telegram <https://t.me/while_true_do>
+
 
 <!-- ./Footer (auto generated) -->
