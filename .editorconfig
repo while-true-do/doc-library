@@ -1,4 +1,4 @@
-# .editorconfig for {{ WTD_REPO_NAME }}
+# .editorconfig for website
 
 # top-most EditorConfig file
 root = true
