@@ -1,8 +1,8 @@
-# .gitignore for website
+# .gitignore for doc-library
 
-# repo specific #
+# repo specific
 
-# compiled source #
+# compiled source
 *.com
 *.class
 *.dll
@@ -10,12 +10,12 @@
 *.o
 *.so
 
-# temporary files #
+# temporary files
 *.swp
 *.swo
 *~
 
-# packages #
+# packages
 *.7z
 *.dmg
 *.gz
@@ -25,17 +25,17 @@
 *.tar
 *.zip
 
-# logs and databases #
+# logs and databases
 *.log
 *.sql
 *.sqlite
 
-# OS generated files #
+# OS generated files
 .DS_Store*
 ehthumbs.db
 Icon?
 Thumbs.db
 
-# lock files #
+# lock files
 *.lock
 package-lock.json
