@@ -12,15 +12,15 @@ Please read the below text carefully before contributing.
 
 ## Contents
 
--   [Code of Conduct](#Code_of_Conduct)
--   [Project Contribution](#Project_Contribution)
-    -   [Bug Reports](#Bug_Reports)
-    -   [Feature Requests](#Feature_Requests)
-    -   [Code Contribution](#Code_Contribution)
-    -   [Community Work](#Community_Work)
--   [Additional Guides](#Additional_Guides)
-    -   [Versioning Guide](#Versioning_Guide)
-    -   [Style Guide](#Style_Guide)
+-   [Code of Conduct](#code-of-conduct)
+-   [Project Contribution](#project-contribution)
+    -   [Bug Reports](#bug-reports)
+    -   [Feature Requests](#feature-requests)
+    -   [Code Contribution](#code-contribution)
+    -   [Community Work](#community-work)
+-   [Additional Guides](#additional-guides)
+    -   [Versioning Guide](#versioning-guide)
+    -   [Style Guide](#style-guide)
 
 ## Code of Conduct
 
@@ -48,8 +48,10 @@ Reporting Bugs should follow some simple rules:
 -   **Add** more details and attachments
 -   **Follow up**, if somebody is having questions or needs more details
 
-### Feature Requests
+Formulating your Bug Report as if you are explaining it to a rubber duck
+is a very good idea.
 
+### Feature Requests
 Requesting a new feature is also following some simple rules:
 
 -   **Check**, if the feature is already requested
@@ -58,6 +60,16 @@ Requesting a new feature is also following some simple rules:
 -   **Add** more details like mock ups, attachments, lists, screenshots
 -   **Follow Up** in the discussion to the feature
 -   **Be patient**, it may take some time
+
+Small Feature Requests should be written in a User Story.
+
+#### Example
+
+As a user/developer/packager/etc, I need ... , due to ...
+
+-   Criteria 1
+-   Criteria 2
+-   Criteria 3
 
 ### Code Contribution
 
@@ -69,7 +81,24 @@ rules should be applied.
 -   **One Contribution** should solve **one issue**
 -   **Tested** code is **cool** code
 -   **Documented** code is **Maintainable** code
--   **Commit Messages** should be useful and self explaining
+-   **Commit Messages** should be useful and self explaining and
+    use the .gitmessage as a template, if existing in the repository
+
+#### Example Commit
+
+```
+feat: Everything OK Button
+
+A long requested Everything OK Button, which will help us a lot!
+
+- add: everything_ok.py
+- remove: not_ok.js
+- update: README.md
+- update: metadata.json
+
+Resolves: #1234
+See also: #4711, #666
+```
 
 ### Community Work
 

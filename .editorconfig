@@ -1,5 +1,6 @@
 # .editorconfig for doc-library
-
+# https://editorconfig.org/
+# 
 # top-most EditorConfig file
 root = true
 

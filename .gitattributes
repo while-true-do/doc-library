@@ -1,0 +1,9 @@
+# .gitattributes for doc-library
+# https://git-scm.com/docs/gitattributes
+#
+# Ignore some files for exports / releases
+.editorconfig export-ignore
+.gitattributes export-ignore
+.gitignore export-ignore
+.gitmessages export-ignore
+/tests

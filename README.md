@@ -19,10 +19,10 @@ This repository keeps track of common documents and templates.
 Documents should not be included in your repository but linked. They will only
 see updates in the doc-library.
 
--   [Code of Conduct](./documents/CODE_OF_CONDUCT.md)
--   [Style Guide](./documents/STYLE_GUIDE.md)
--   [Contribution Guideline](./documents/CONTRIBUTING.md)
--   [Versioning](./documents/VERSIONING.md)
+-   [Code of Conduct](./docs/CODE_OF_CONDUCT.md)
+-   [Style Guide](./docs/STYLE_GUIDE.md)
+-   [Contribution Guideline](./docs/CONTRIBUTING.md)
+-   [Versioning](./docs/VERSIONING.md)
 
 ### Templates
 
@@ -30,7 +30,9 @@ Templates are meant as a Starting Point. You should adjust them to your needs
 and liking.
 
 -   [.editorconfig](./templates/.editorconfig.j2)
+-   [.gitattributes](./templates/.gitattributes.j2)
 -   [.gitignore](./templates/.gitignore.j2)
+-   [.gitmessage](./templates/.gitmessage.j2)
 -   [LICENSE](./templates/LICENSE.j2)
 -   [README.md](./templates/README.md.j2)
 
@@ -40,15 +42,23 @@ None.
 
 ## Installation
 
+Install from [Github](https://github.com/while-true-do/doc-library)
+
 ```
-git clone git@github.com:while-true-do/doc-library.git
+git clone https://github.com/while-true-do/doc-library.git
 ```
 
 ## Usage
 
-All files are readable in a text editor.
+1.  Enable the .gitmessage as commit template
 
- <!-- Footer (auto generated) -->
+    ```
+    git config commit.template .gitmessage
+    ```
+
+2.  Copy the files from ./templates to the desired destination
+3.  Edit the files properly (at least "{{ WTD_REPO_NAME }}" must be replaced)
+4.  Update all "TODO" Sections to your likings
 
 ## Testing
 
@@ -63,7 +73,7 @@ Thank you so much for considering to contribute. We are very happy, when somebod
 is joining the hard work. Please fell free to open
 [Bugs, Feature Requests](https://github.com/while-true-do/doc-library/issues) or
 [Pull Requests](https://github.com/while-true-do/doc-library/pulls) after
-reading the [Contribution Guideline](https://github.com/while-true-do/doc-library/blob/master/documents/CONTRIBUTING.md).
+reading the [Contribution Guideline](https://github.com/while-true-do/doc-library/blob/master/docs/CONTRIBUTING.md).
 
 ## License
 
