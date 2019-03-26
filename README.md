@@ -1,3 +1,10 @@
+<!--
+name: README.md
+description: This file contains important information for the repository.
+author: while-true-do.io
+contact: hello@while-true-do.io
+license: BSD-3-Clause
+-->
 ![](https://img.shields.io/github/license/while-true-do/doc-library.svg?style=flat)
 ![](https://img.shields.io/github/issues/while-true-do/doc-library.svg?style=flat)
 
@@ -34,6 +41,7 @@ and liking.
 -   [.gitignore](./templates/.gitignore.j2)
 -   [.gitmessage](./templates/.gitmessage.j2)
 -   [LICENSE](./templates/LICENSE.j2)
+-   [kudos.txt](./templates/kudos.txt.j2)
 -   [README.md](./templates/README.md.j2)
 
 ## Requirements
@@ -50,7 +58,7 @@ git clone https://github.com/while-true-do/doc-library.git
 
 ## Usage
 
-1.  Enable the .gitmessage as commit template
+1.  Enable .gitmessage as commit template
 
     ```
     git config commit.template .gitmessage
@@ -62,7 +70,7 @@ git clone https://github.com/while-true-do/doc-library.git
 
 ## Testing
 
-Most of the "generic" tests are located our
+Most of the "generic" tests are located in the
 [Test Library](https://github.com/while-true-do/test-library). Tests and
 instructions for a single repository are located in the
 [Test Directory](./tests).
@@ -74,6 +82,8 @@ is joining the hard work. Please fell free to open
 [Bugs, Feature Requests](https://github.com/while-true-do/doc-library/issues) or
 [Pull Requests](https://github.com/while-true-do/doc-library/pulls) after
 reading the [Contribution Guideline](https://github.com/while-true-do/doc-library/blob/master/docs/CONTRIBUTING.md).
+
+See who has contributed already in the [kudos.txt](./kudos.txt).
 
 ## License
 

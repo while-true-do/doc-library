@@ -1,4 +1,12 @@
-# Contributor Covenant Code of Conduct
+<!--
+name: CODE_OF_CONDUCT.md
+description: This file contains the Code of Conduct for while-true-do.io.
+author: while-true-do.io
+contact: hello@while-true-do.io
+license: BSD-3-Clause
+reference: https://www.contributor-covenant.org
+-->
+# Code of Conduct
 
 Derived from <https://www.contributor-covenant.org>.
 

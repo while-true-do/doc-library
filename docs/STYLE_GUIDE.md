@@ -1,3 +1,10 @@
+<!--
+name: STYLE_GUIDE.md
+description: This file contains the Style Guide for while-true-do.io.
+author: while-true-do.io
+contact: hello@while-true-do.io
+license: BSD-3-Clause
+-->
 # Style Guide
 
 <!-- TODO: Remove DRAFT after finishing -->

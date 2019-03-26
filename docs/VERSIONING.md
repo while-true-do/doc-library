@@ -1,4 +1,12 @@
-# Semantic Versioning 2.0.0
+<!--
+name: VERSIONING.md
+description: This file contains Versioning Guide for while-true-do.io.
+author: while-true-do.io
+contact: hello@while-true-do.io
+license: BSD-3-Clause
+reference: https://semver.org/
+-->
+# Versioning
 
 Derived from <https://semver.org/>.
 
