@@ -1,12 +1,17 @@
-# name: kudos.txt
-# description: Express gratitude to your contributors.
-# author: while-true-do.io
-# contact: hello@while-true-do.io
-# license: BSD-3-Clause
-# reference: https://github.com/kudos-txt
+# kudos.txt - Express gratitude to your contributors.
+# https://github.com/kudos-txt
 
-## contributors
-- name: daniel-wtd
-  role: owner
-  site: daniel@while-true-do.io, @daniel-wtd
-  location: Germany
+project:
+  - name: while-true-do.io
+    site: https://while-true-do.io
+    mail: hello@while-true-do.io
+
+contributors:
+  - name: daniel-wtd
+    mail: daniel@while-true-do.io
+    role: Founder / Owner
+    site: https://while-true-do.io
+
+partners:
+  - name: kudos.txt
+    site: https://kudos-txt.io

@@ -7,7 +7,7 @@ license: BSD-3-Clause
 -->
 # Contribution Code
 
-While True Do Contribution Guidelines
+while-true-do.io Contribution Guideline
 
 ## Welcome
 
@@ -41,7 +41,7 @@ whole [Code of Conduct](./CODE_OF_CONDUCT.md).
 
 ## Project Contribution
 
-Contributing to While True Do is appreciated. We are open for new ideas,
+Contributing to while-true-do.io is appreciated. We are open for new ideas,
 helping with the community, bug reports, helps with testing, etc. In this
 section you will find some hints. If your way of contribution is not explained
 here, please feel free to discuss your idea with us.

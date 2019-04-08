@@ -5,8 +5,12 @@ author: while-true-do.io
 contact: hello@while-true-do.io
 license: BSD-3-Clause
 -->
+<!-- github shields -->
 ![](https://img.shields.io/github/license/while-true-do/doc-library.svg?style=flat)
 ![](https://img.shields.io/github/issues/while-true-do/doc-library.svg?style=flat)
+![](https://img.shields.io/github/issues-pr/while-true-do/doc-library.svg?style=flat)
+<!-- travis testing shields -->
+[![Build Status](https://travis-ci.org/while-true-do/doc-library.svg?branch=master)](https://travis-ci.org/while-true-do/doc-library)
 
 # doc-library
 
@@ -14,8 +18,10 @@ A repository containing some documents and templates.
 
 ## Motivation
 
-During the past years, While True Do opened and closed some repositories.
-Keeping track of documents and templates should be easy and centrally manageable.
+During the past years, while-true-do.io opened and closed some repositories. We
+faced the situation, that maintaining Guidelines and other general purpose
+documents was somewhat tedious. Keeping track of documents and templates should
+be easy and centrally manageable.
 
 ## Description
 
@@ -61,10 +67,13 @@ git clone https://github.com/while-true-do/doc-library.git
 1.  Enable .gitmessage as commit template
 
     ```
+    # Only for the repository
     git config commit.template .gitmessage
+    # Global for all repositories
+    git config --global commit.template .gitmessage
     ```
 
-2.  Copy the files from ./templates to the desired destination
+2.  Copy and rename the files from ./templates to the desired destination
 3.  Edit the files properly (at least "{{ WTD_REPO_NAME }}" must be replaced)
 4.  Update all "TODO" Sections to your likings
 
