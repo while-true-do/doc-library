@@ -71,9 +71,11 @@ is deemed necessary and appropriate to the circumstances. The project team is
 obligated to maintain confidentiality with regard to the reporter of an incident.
 Further details of specific enforcement policies may be posted separately.
 
-Project maintainers who do not follow or enforce the Code of Conduct in good
+Project maintainers, contributors, and/or participants who do not follow or enforce the Code of Conduct in good
 faith may face temporary or permanent repercussions as determined by other
 members of the project's leadership.
+
+The authority and decisions of the the project team at hello@while-true-do.org is absolute.
 
 ## Attribution
 
